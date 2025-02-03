@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(img/I\ will\ design\ attractive\ wallpaper\ for\ desktop\ and\ mobile\ in\ 8k.jpeg);
+    background-image: url(../img/I\ will\ design\ attractive\ wallpaper\ for\ desktop\ and\ mobile\ in\ 8k.jpeg);
     background-size: cover;
 }
 
@@ -18,7 +18,7 @@ body {
     background: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
     backdrop-filter: blur(10px); /* Aplica o efeito de desfoque */
     width: 220px;
-    height: 320px;
+    height: 330px;
     padding: 18px;
     top: 50%;
     left: 50%;
@@ -30,8 +30,8 @@ input {
     width: 100%;
     margin: auto;
     padding: 2px;
-    margin-top: 16px;
     display: block;
+    margin-bottom: 16px;
 }
 
 #cadastrar  {
@@ -39,14 +39,13 @@ input {
     padding: 8px;
     margin: auto;
     display: block;
-    margin-top: 54px;
     width: 95%;
 }
 
 #cadastro, h1 {
   color: white;
   filter: drop-shadow(2px 2px 2px black);
-}
+}  
 
 input, p {
     font-size: small;
