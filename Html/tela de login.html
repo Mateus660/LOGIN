@@ -25,13 +25,13 @@
         
 
           <div class="informacoes">
-              <label for="get">Crie uma senha</label>
-              <input type="password" name="senha" id="senha">
+              <label for="get" id="labelsenha">Crie uma senha</label>
+              <input type="password" name="senha" id="senha" onkeyup="senhacorr()">
           </div>
 
           <div class="informacoes">
-              <label for="get">Confirme a senha</label>
-              <input type="password" name="confirmação de senha" id="confirmsenha">
+              <label for="get" id="labelcosenha">Confirme a senha</label>
+              <input type="password" name="confirmação de senha" id="confirmsenha" onkeyup="confirmsenhacorr()">
           </div>
 
           <button type="submit" id="cadastrar" onclick="cadastrar()">Cadastrar</button>
