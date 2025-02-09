@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/I\ will\ design\ attractive\ wallpaper\ for\ desktop\ and\ mobile\ in\ 8k.jpeg);
+    background-size: cover;
+    height: 100vh
+    ;
+}
+
+#tela-login {
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 10px solid black;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
+    backdrop-filter: blur(10px); /* Aplica o efeito de desfoque */
+    padding: 10px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%)
+
+}
+
+#tela-login > h1 {
+    text-align: center;
+    filter: drop-shadow(1px 1px 1px black );
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 3px;
+    border: none; /* Remove a borda padrão */
+    border-bottom: 2px solid black; /* Adiciona apenas a borda inferior */
+    background: transparent; /* Remove fundo */
+    outline: none; /* Remove contorno ao clicar */
+}
+
+#login  {
+    margin: auto;
+    display: block;
+    padding: 3px;
+    border-radius: 4px;
+    font-size: large;
+    border: none; /* Remove a borda padrão */
+    border-bottom: 2px solid black; /* Adiciona apenas a borda inferior */
+    outline: none; /* Remove contorno ao clicar */
+}
+
+#login:hover {
+   background-color: black;
+   color: white;
+   padding: 4px;
+}
+

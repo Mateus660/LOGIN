@@ -18,7 +18,7 @@ body {
     background: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
     backdrop-filter: blur(10px); /* Aplica o efeito de desfoque */
     width: 220px;
-    height: 360px;
+    height: 370px;
     padding: 18px;
     top: 50%;
     left: 50%;

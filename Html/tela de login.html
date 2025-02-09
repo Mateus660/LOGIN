@@ -3,44 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Css/style.css">
-    <title>Tela de login e senha</title>
-    
+    <link rel="stylesheet" href="../Css/login.css">
+    <title>Document</title>
 </head>
 <body>
     <div id="container">
-        <div id="cadastro">
-          
-          <h1>Cadastre-se</h1>
+        <div id="tela-login">
 
-          <div class="informacoes">
-              <label for="get" id="labelnome">Nome completo</label>
-              <input type="text" name="nome" id="nome" onkeyup="nomecorr()">
-          </div>
+          <h1>Login</h1>
 
-          <div class="informacoes">
-            <label for="usuario" id="labelusuario">Nome de usuário</label>
-            <input type="text" name="usuario" id="usuario" onkeyup="usuariocorr()">
-        </div>
-        
+            <div class="dados">
+                <label for="usuario" id="labelusuario">Usuario</label>
+                <input type="text" name="usuario" id="usuario">
+            </div>
 
-          <div class="informacoes">
-              <label for="get" id="labelsenha">Crie uma senha</label>
-              <input type="password" name="senha" id="senha" onkeyup="senhacorr()">
-          </div>
+            <div class="dados">
+                <label for="senha" id="labelsenha">Senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
 
-          <div class="informacoes">
-              <label for="get" id="labelcosenha">Confirme a senha</label>
-              <input type="password" name="confirmação de senha" id="confirmsenha" onkeyup="confirmsenhacorr()">
-          </div>
-
-          <button type="submit" id="cadastrar" onclick="cadastrar()">Cadastrar</button>
-          
-          <button type="reset" id="apagar" onclick="resetar()">Apagar</button>
+            <button type="submit" onclick="logar()" id="login">Logar</button>
         </div>
     </div>
 
-    <script src="../Javascript/funcionamento.js"></script>
+    <script src="../Javascript/login.js"></script>
 
 </body>
 </html>
