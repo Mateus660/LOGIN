@@ -18,8 +18,7 @@ body {
     background: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
     backdrop-filter: blur(10px); /* Aplica o efeito de desfoque */
     width: 220px;
-    height: 370px;
-    padding: 18px;
+    padding: 10px;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -51,6 +50,18 @@ input {
     width: 95%;    
 } 
 
+#enca {
+    text-align: center;
+    font-size: large;
+    padding: 12px;
+    color: white;
+}
+
+a {
+  color:yellow;  
+  text-decoration: none;
+}
+
 #cadastro, h1 {
   color: white;
   filter: drop-shadow(2px 2px 2px black);
@@ -63,6 +74,7 @@ input, p {
 #cadastrar:hover {
    background-color: black;
    color: white;
+   text-align: center;
 } 
 
 #apagar:hover {

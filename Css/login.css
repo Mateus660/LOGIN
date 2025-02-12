@@ -9,8 +9,7 @@
 body {
     background-image: url(../img/I\ will\ design\ attractive\ wallpaper\ for\ desktop\ and\ mobile\ in\ 8k.jpeg);
     background-size: cover;
-    height: 100vh
-    ;
+    height: 100vh;
 }
 
 #tela-login {
@@ -31,6 +30,7 @@ body {
 #tela-login > h1 {
     text-align: center;
     filter: drop-shadow(1px 1px 1px black );
+    color: white;
 }
 
 input {
@@ -62,3 +62,13 @@ input {
    padding: 4px;
 }
 
+#enca {
+    text-align: center;
+    padding: 12px;
+    color: white;
+}
+
+a {
+  color: yellow;    
+  text-decoration: none;
+}
